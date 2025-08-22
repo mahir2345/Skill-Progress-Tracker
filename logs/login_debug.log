@@ -1,0 +1,770 @@
+2025-08-03 07:29:57 - Entered login POST
+2025-08-03 07:29:57 - Attempting authentication for user: hiji12345
+2025-08-03 07:30:21 - Entered login POST
+2025-08-03 07:30:21 - Attempting authentication for user: hiji12345
+2025-08-03 07:32:17 - Entered login POST
+2025-08-03 07:32:17 - Attempting authentication for user: mahir2001
+2025-08-03 07:38:26 - Entered login POST
+2025-08-03 07:38:26 - Attempting authentication for user: mahir2001
+2025-08-03 07:46:40 - Entered login POST
+2025-08-03 07:46:40 - Attempting authentication for user: mahir2001
+2025-08-03 07:46:53 - Entered login POST
+2025-08-03 07:46:53 - Attempting authentication for user: mahir2001
+2025-08-03 07:57:42 - Entered login POST
+2025-08-03 07:57:42 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-03 07:57:42 - Attempting authentication for user: mahir2001
+2025-08-03 18:04:48 - Entered login POST
+2025-08-03 18:04:48 - Authenticate: username=mahir2001, password=Password123
+2025-08-03 18:04:48 - Attempting authentication for user: mahir2001
+2025-08-03 18:06:51 - Entered login POST
+2025-08-03 18:06:51 - Invalid CSRF token
+2025-08-03 18:07:10 - Entered login POST
+2025-08-03 18:07:10 - Authenticate: username=mahir2001, password=Password123
+2025-08-03 18:07:10 - DB user: Array
+(
+    [user_id] => 4
+    [username] => mahir2001
+    [email] => mahirkhan123@gmail.com
+    [password_hash] => $2y$10$Ks.AAdqZlwbdfgbW8ZjOSO2sqMaNrmX1Tq8zf6h3Mg9jYrxXxmHtC
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-03 13:31:57
+    [updated_at] => 2025-08-03 13:31:57
+)
+2025-08-03 18:07:10 - Password verify: false
+2025-08-03 18:07:10 - Attempting authentication for user: mahir2001
+2025-08-03 18:07:19 - Entered login POST
+2025-08-03 18:07:19 - Invalid CSRF token
+2025-08-03 18:09:32 - Entered login POST
+2025-08-03 18:09:32 - Invalid CSRF token
+2025-08-03 18:10:13 - Register POST: Array
+(
+    [username] => testuser123
+    [last_name] => User
+    [first_name] => Test
+    [csrf_token] => 60307cd93fd0a97f7a5b75f7a7154914a41718d5555dd375092384703d650f8e
+    [password] => Test123456
+    [terms] => on
+    [email] => testuser123@example.com
+    [confirm_password] => Test123456
+)
+2025-08-03 18:10:13 - Hashed password: $2y$10$GVLYLPFeE.mBZXlxeE6GwODFwwvZ5s4wI3EV/O6xWJQPfAEvtNMfG
+2025-08-03 18:10:13 - Register result: Array
+(
+    [success] => 1
+    [message] => User account created successfully
+    [user_id] => 6
+)
+2025-08-03 18:10:30 - Entered login POST
+2025-08-03 18:10:30 - Invalid CSRF token
+2025-08-03 18:10:42 - Entered login POST
+2025-08-03 18:10:42 - Invalid CSRF token
+2025-08-03 18:11:18 - Entered login POST
+2025-08-03 18:11:18 - Invalid CSRF token
+2025-08-03 18:12:37 - Entered login POST
+2025-08-03 18:12:37 - POST data: Array
+(
+    [username] => testuser123
+    [csrf_token] => 732d7f9f47d24cd731f749766f9d87babc36ed8cac959b3226d1026d726c9341
+    [password] => Test123456
+)
+
+2025-08-03 18:12:37 - SESSION data: Array
+(
+    [csrf_token] => 732d7f9f47d24cd731f749766f9d87babc36ed8cac959b3226d1026d726c9341
+)
+
+2025-08-03 18:12:37 - POST token: 732d7f9f47d24cd731f749766f9d87babc36ed8cac959b3226d1026d726c9341
+2025-08-03 18:12:37 - Session token: 732d7f9f47d24cd731f749766f9d87babc36ed8cac959b3226d1026d726c9341
+2025-08-03 18:12:37 - Authenticate: username=testuser123, password=Test123456
+2025-08-03 18:12:37 - DB user: Array
+(
+    [user_id] => 6
+    [username] => testuser123
+    [email] => testuser123@example.com
+    [password_hash] => $2y$10$GVLYLPFeE.mBZXlxeE6GwODFwwvZ5s4wI3EV/O6xWJQPfAEvtNMfG
+    [first_name] => Test
+    [last_name] => User
+    [created_at] => 2025-08-04 00:10:13
+    [updated_at] => 2025-08-04 00:10:13
+)
+2025-08-03 18:12:37 - Password verify: true
+2025-08-03 18:12:37 - Attempting authentication for user: testuser123
+2025-08-03 18:12:37 - Authentication SUCCESS for user: testuser123
+2025-08-03 18:12:37 - Redirecting to dashboard
+2025-08-03 18:15:13 - Register POST: Array
+(
+    [csrf_token] => 59caedeaf8b62ac8a138c0359826ea69bf199160311e26f87254e798772fd65b
+    [first_name] => Awsaf 
+    [last_name] => Muntakim
+    [username] => awsaf1234
+    [email] => awsafmuntakim123@gmial.com
+    [password] => Password1
+    [confirm_password] => Password1
+    [terms] => on
+)
+2025-08-03 18:15:13 - Hashed password: $2y$10$yK.NDfSwNCJKpdPmrciT0eRxYWs75EDTy2RmqDqWvwFqZmzGkqfuy
+2025-08-03 18:15:13 - Register result: Array
+(
+    [success] => 1
+    [message] => User account created successfully
+    [user_id] => 7
+)
+2025-08-03 18:15:28 - Entered login POST
+2025-08-03 18:15:28 - POST data: Array
+(
+    [csrf_token] => 59caedeaf8b62ac8a138c0359826ea69bf199160311e26f87254e798772fd65b
+    [username] => awsaf1234
+    [password] => Password1
+)
+
+2025-08-03 18:15:28 - SESSION data: Array
+(
+    [csrf_token] => 59caedeaf8b62ac8a138c0359826ea69bf199160311e26f87254e798772fd65b
+)
+
+2025-08-03 18:15:28 - POST token: 59caedeaf8b62ac8a138c0359826ea69bf199160311e26f87254e798772fd65b
+2025-08-03 18:15:28 - Session token: 59caedeaf8b62ac8a138c0359826ea69bf199160311e26f87254e798772fd65b
+2025-08-03 18:15:28 - Authenticate: username=awsaf1234, password=Password1
+2025-08-03 18:15:28 - DB user: Array
+(
+    [user_id] => 7
+    [username] => awsaf1234
+    [email] => awsafmuntakim123@gmial.com
+    [password_hash] => $2y$10$yK.NDfSwNCJKpdPmrciT0eRxYWs75EDTy2RmqDqWvwFqZmzGkqfuy
+    [first_name] => Awsaf
+    [last_name] => Muntakim
+    [created_at] => 2025-08-04 00:15:13
+    [updated_at] => 2025-08-04 00:15:13
+)
+2025-08-03 18:15:28 - Password verify: true
+2025-08-03 18:15:28 - Attempting authentication for user: awsaf1234
+2025-08-03 18:15:28 - Authentication SUCCESS for user: awsaf1234
+2025-08-03 18:15:28 - Redirecting to dashboard
+2025-08-03 18:16:37 - Entered login POST
+2025-08-03 18:16:37 - POST data: Array
+(
+    [username] => testuser123
+    [csrf_token] => cac6ada698a741959ca73efdd21e90c5271db531cafc5709988672bfe5704253
+    [password] => Test123456
+)
+
+2025-08-03 18:16:37 - SESSION data: Array
+(
+    [csrf_token] => cac6ada698a741959ca73efdd21e90c5271db531cafc5709988672bfe5704253
+)
+
+2025-08-03 18:16:37 - POST token: cac6ada698a741959ca73efdd21e90c5271db531cafc5709988672bfe5704253
+2025-08-03 18:16:37 - Session token: cac6ada698a741959ca73efdd21e90c5271db531cafc5709988672bfe5704253
+2025-08-03 18:16:37 - Authenticate: username=testuser123, password=Test123456
+2025-08-03 18:16:37 - DB user: Array
+(
+    [user_id] => 6
+    [username] => testuser123
+    [email] => testuser123@example.com
+    [password_hash] => $2y$10$GVLYLPFeE.mBZXlxeE6GwODFwwvZ5s4wI3EV/O6xWJQPfAEvtNMfG
+    [first_name] => Test
+    [last_name] => User
+    [created_at] => 2025-08-04 00:10:13
+    [updated_at] => 2025-08-04 00:12:37
+)
+2025-08-03 18:16:37 - Password verify: true
+2025-08-03 18:16:37 - Attempting authentication for user: testuser123
+2025-08-03 18:16:37 - Authentication SUCCESS for user: testuser123
+2025-08-03 18:16:37 - Redirecting to dashboard
+2025-08-04 16:10:06 - Entered login POST
+2025-08-04 16:10:06 - POST data: Array
+(
+    [csrf_token] => 250109a2fa4601e5f9cea68b975274fb69d4300a9f21a4292c90b79e05b2bd81
+    [username] => mahir2001
+    [password] => Mahirkhan0
+    [remember_me] => on
+)
+
+2025-08-04 16:10:06 - SESSION data: Array
+(
+    [csrf_token] => 250109a2fa4601e5f9cea68b975274fb69d4300a9f21a4292c90b79e05b2bd81
+)
+
+2025-08-04 16:10:06 - POST token: 250109a2fa4601e5f9cea68b975274fb69d4300a9f21a4292c90b79e05b2bd81
+2025-08-04 16:10:06 - Session token: 250109a2fa4601e5f9cea68b975274fb69d4300a9f21a4292c90b79e05b2bd81
+2025-08-04 16:10:06 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-04 16:10:06 - DB user: Array
+(
+    [user_id] => 4
+    [username] => mahir2001
+    [email] => mahirkhan123@gmail.com
+    [password_hash] => $2y$10$Ks.AAdqZlwbdfgbW8ZjOSO2sqMaNrmX1Tq8zf6h3Mg9jYrxXxmHtC
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-03 13:31:57
+    [updated_at] => 2025-08-03 13:31:57
+)
+2025-08-04 16:10:06 - Password verify: true
+2025-08-04 16:10:06 - Attempting authentication for user: mahir2001
+2025-08-04 16:10:06 - Authentication SUCCESS for user: mahir2001
+2025-08-04 16:10:06 - Redirecting to dashboard
+2025-08-04 18:32:31 - Entered login POST
+2025-08-04 18:32:31 - POST data: Array
+(
+    [csrf_token] => f8e56a4207a4367cda2f6f42414b6df8251013d6e26d35e9ed23c97d0defee87
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-04 18:32:31 - SESSION data: Array
+(
+    [csrf_token] => f8e56a4207a4367cda2f6f42414b6df8251013d6e26d35e9ed23c97d0defee87
+)
+
+2025-08-04 18:32:31 - POST token: f8e56a4207a4367cda2f6f42414b6df8251013d6e26d35e9ed23c97d0defee87
+2025-08-04 18:32:31 - Session token: f8e56a4207a4367cda2f6f42414b6df8251013d6e26d35e9ed23c97d0defee87
+2025-08-04 18:32:31 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-04 18:32:31 - DB user: Array
+(
+    [user_id] => 4
+    [username] => mahir2001
+    [email] => mahirkhan123@gmail.com
+    [password_hash] => $2y$10$Ks.AAdqZlwbdfgbW8ZjOSO2sqMaNrmX1Tq8zf6h3Mg9jYrxXxmHtC
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-03 13:31:57
+    [updated_at] => 2025-08-04 22:10:06
+)
+2025-08-04 18:32:31 - Password verify: true
+2025-08-04 18:32:32 - Attempting authentication for user: mahir2001
+2025-08-04 18:32:32 - Authentication SUCCESS for user: mahir2001
+2025-08-04 18:32:32 - Redirecting to dashboard
+2025-08-04 19:29:31 - Entered login POST
+2025-08-04 19:29:31 - POST data: Array
+(
+    [csrf_token] => 9f83b57985f6ca5ef2a5757a3ae905056bb0e8c79654120bcecbcf9c192af240
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-04 19:29:31 - SESSION data: Array
+(
+    [csrf_token] => 9f83b57985f6ca5ef2a5757a3ae905056bb0e8c79654120bcecbcf9c192af240
+)
+
+2025-08-04 19:29:31 - POST token: 9f83b57985f6ca5ef2a5757a3ae905056bb0e8c79654120bcecbcf9c192af240
+2025-08-04 19:29:31 - Session token: 9f83b57985f6ca5ef2a5757a3ae905056bb0e8c79654120bcecbcf9c192af240
+2025-08-04 19:29:31 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-04 19:29:31 - DB user: Array
+(
+    [user_id] => 4
+    [username] => mahir2001
+    [email] => mahirkhan123@gmail.com
+    [password_hash] => $2y$10$Ks.AAdqZlwbdfgbW8ZjOSO2sqMaNrmX1Tq8zf6h3Mg9jYrxXxmHtC
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-03 13:31:57
+    [updated_at] => 2025-08-05 00:32:31
+)
+2025-08-04 19:29:31 - Password verify: true
+2025-08-04 19:29:31 - Attempting authentication for user: mahir2001
+2025-08-04 19:29:31 - Authentication SUCCESS for user: mahir2001
+2025-08-04 19:29:31 - Redirecting to dashboard
+2025-08-05 10:34:42 - Entered login POST
+2025-08-05 10:34:42 - POST data: Array
+(
+    [csrf_token] => 85b05bbbda2d72e545422e804e92060933f74f2bc38a300af792a7938f84f8cc
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-05 10:34:42 - SESSION data: Array
+(
+    [csrf_token] => 85b05bbbda2d72e545422e804e92060933f74f2bc38a300af792a7938f84f8cc
+)
+
+2025-08-05 10:34:42 - POST token: 85b05bbbda2d72e545422e804e92060933f74f2bc38a300af792a7938f84f8cc
+2025-08-05 10:34:42 - Session token: 85b05bbbda2d72e545422e804e92060933f74f2bc38a300af792a7938f84f8cc
+2025-08-05 10:34:42 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-05 10:34:42 - DB user: Array
+(
+    [user_id] => 4
+    [username] => mahir2001
+    [email] => mahirkhan123@gmail.com
+    [password_hash] => $2y$10$Ks.AAdqZlwbdfgbW8ZjOSO2sqMaNrmX1Tq8zf6h3Mg9jYrxXxmHtC
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-03 13:31:57
+    [updated_at] => 2025-08-05 01:29:31
+)
+2025-08-05 10:34:42 - Password verify: true
+2025-08-05 10:34:43 - Attempting authentication for user: mahir2001
+2025-08-05 10:34:43 - Authentication SUCCESS for user: mahir2001
+2025-08-05 10:34:43 - Redirecting to dashboard
+2025-08-08 04:07:15 - Entered login POST
+2025-08-08 04:07:15 - POST data: Array
+(
+    [csrf_token] => 7c4278d22297c89350e8f0437d6c6582eb6cb8efe887ce52ab961579496e97ed
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-08 04:07:15 - SESSION data: Array
+(
+    [csrf_token] => 7c4278d22297c89350e8f0437d6c6582eb6cb8efe887ce52ab961579496e97ed
+)
+
+2025-08-08 04:07:15 - POST token: 7c4278d22297c89350e8f0437d6c6582eb6cb8efe887ce52ab961579496e97ed
+2025-08-08 04:07:15 - Session token: 7c4278d22297c89350e8f0437d6c6582eb6cb8efe887ce52ab961579496e97ed
+2025-08-08 04:07:15 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-08 04:07:15 - DB user: Array
+(
+    [user_id] => 4
+    [username] => mahir2001
+    [email] => mahirkhan123@gmail.com
+    [password_hash] => $2y$10$Ks.AAdqZlwbdfgbW8ZjOSO2sqMaNrmX1Tq8zf6h3Mg9jYrxXxmHtC
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-03 13:31:57
+    [updated_at] => 2025-08-05 16:34:43
+)
+2025-08-08 04:07:15 - Password verify: true
+2025-08-08 04:07:15 - Attempting authentication for user: mahir2001
+2025-08-08 04:07:15 - Authentication SUCCESS for user: mahir2001
+2025-08-08 04:07:15 - Redirecting to dashboard
+2025-08-08 08:00:25 - Entered login POST
+2025-08-08 08:00:25 - POST data: Array
+(
+    [csrf_token] => 1cddedeb54a8f30a1a160911a4155f064ad7eebf86f629ec403fdbc4580eee4a
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-08 08:00:25 - SESSION data: Array
+(
+    [csrf_token] => 1cddedeb54a8f30a1a160911a4155f064ad7eebf86f629ec403fdbc4580eee4a
+)
+
+2025-08-08 08:00:25 - POST token: 1cddedeb54a8f30a1a160911a4155f064ad7eebf86f629ec403fdbc4580eee4a
+2025-08-08 08:00:25 - Session token: 1cddedeb54a8f30a1a160911a4155f064ad7eebf86f629ec403fdbc4580eee4a
+2025-08-08 08:00:25 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-08 08:00:26 - DB user: Array
+(
+    [user_id] => 4
+    [username] => mahir2001
+    [email] => mahirkhan123@gmail.com
+    [password_hash] => $2y$10$Ks.AAdqZlwbdfgbW8ZjOSO2sqMaNrmX1Tq8zf6h3Mg9jYrxXxmHtC
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-03 13:31:57
+    [updated_at] => 2025-08-08 10:07:15
+)
+2025-08-08 08:00:26 - Password verify: true
+2025-08-08 08:00:26 - Attempting authentication for user: mahir2001
+2025-08-08 08:00:26 - Authentication SUCCESS for user: mahir2001
+2025-08-08 08:00:26 - Redirecting to dashboard
+2025-08-08 15:29:55 - Entered login POST
+2025-08-08 15:29:55 - POST data: Array
+(
+    [csrf_token] => 56eeb8ea62434a7ebee8a66cfebc37ff662afd814a1527277356490a6d8d8711
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-08 15:29:55 - SESSION data: Array
+(
+    [csrf_token] => 56eeb8ea62434a7ebee8a66cfebc37ff662afd814a1527277356490a6d8d8711
+)
+
+2025-08-08 15:29:55 - POST token: 56eeb8ea62434a7ebee8a66cfebc37ff662afd814a1527277356490a6d8d8711
+2025-08-08 15:29:55 - Session token: 56eeb8ea62434a7ebee8a66cfebc37ff662afd814a1527277356490a6d8d8711
+2025-08-08 15:29:55 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-08 15:29:55 - DB user: Array
+(
+    [user_id] => 4
+    [username] => mahir2001
+    [email] => mahirkhan123@gmail.com
+    [password_hash] => $2y$10$Ks.AAdqZlwbdfgbW8ZjOSO2sqMaNrmX1Tq8zf6h3Mg9jYrxXxmHtC
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-03 13:31:57
+    [updated_at] => 2025-08-08 14:00:26
+)
+2025-08-08 15:29:55 - Password verify: true
+2025-08-08 15:29:55 - Attempting authentication for user: mahir2001
+2025-08-08 15:29:55 - Authentication SUCCESS for user: mahir2001
+2025-08-08 15:29:55 - Redirecting to dashboard
+2025-08-09 17:32:48 - Entered login POST
+2025-08-09 17:32:48 - POST data: Array
+(
+    [csrf_token] => cdac6b9938e6f1913fcd4ca60045c4791bccfd1604095259a75f373735091a50
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-09 17:32:48 - SESSION data: Array
+(
+    [csrf_token] => cdac6b9938e6f1913fcd4ca60045c4791bccfd1604095259a75f373735091a50
+)
+
+2025-08-09 17:32:48 - POST token: cdac6b9938e6f1913fcd4ca60045c4791bccfd1604095259a75f373735091a50
+2025-08-09 17:32:48 - Session token: cdac6b9938e6f1913fcd4ca60045c4791bccfd1604095259a75f373735091a50
+2025-08-09 17:32:48 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-09 17:32:48 - DB user: Array
+(
+    [user_id] => 4
+    [username] => mahir2001
+    [email] => mahirkhan123@gmail.com
+    [password_hash] => $2y$10$Ks.AAdqZlwbdfgbW8ZjOSO2sqMaNrmX1Tq8zf6h3Mg9jYrxXxmHtC
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-03 13:31:57
+    [updated_at] => 2025-08-08 21:29:55
+)
+2025-08-09 17:32:48 - Password verify: true
+2025-08-09 17:32:48 - Attempting authentication for user: mahir2001
+2025-08-09 17:32:48 - Authentication SUCCESS for user: mahir2001
+2025-08-09 17:32:48 - Redirecting to dashboard
+2025-08-09 18:19:10 - Entered login POST
+2025-08-09 18:19:10 - POST data: Array
+(
+    [csrf_token] => 8a9e161555c22920394405b12b90b7c75b95d1ff2b30fece69fc0ed6cf6c0bff
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-09 18:19:10 - SESSION data: Array
+(
+    [csrf_token] => 8a9e161555c22920394405b12b90b7c75b95d1ff2b30fece69fc0ed6cf6c0bff
+)
+
+2025-08-09 18:19:10 - POST token: 8a9e161555c22920394405b12b90b7c75b95d1ff2b30fece69fc0ed6cf6c0bff
+2025-08-09 18:19:10 - Session token: 8a9e161555c22920394405b12b90b7c75b95d1ff2b30fece69fc0ed6cf6c0bff
+2025-08-09 18:19:10 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-09 18:19:10 - DB user: Array
+(
+    [user_id] => 4
+    [username] => mahir2001
+    [email] => mahirkhan123@gmail.com
+    [password_hash] => $2y$10$Ks.AAdqZlwbdfgbW8ZjOSO2sqMaNrmX1Tq8zf6h3Mg9jYrxXxmHtC
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-03 13:31:57
+    [updated_at] => 2025-08-09 23:32:48
+)
+2025-08-09 18:19:10 - Password verify: true
+2025-08-09 18:19:10 - Attempting authentication for user: mahir2001
+2025-08-09 18:19:10 - Authentication SUCCESS for user: mahir2001
+2025-08-09 18:19:10 - Redirecting to dashboard
+2025-08-09 18:22:39 - Entered login POST
+2025-08-09 18:22:39 - POST data: Array
+(
+    [csrf_token] => c0b9a75e37f5af66f76c14ea10761448f93e1c0e99ce0d0db21d7bf85a4cdd93
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-09 18:22:39 - SESSION data: Array
+(
+    [csrf_token] => c0b9a75e37f5af66f76c14ea10761448f93e1c0e99ce0d0db21d7bf85a4cdd93
+)
+
+2025-08-09 18:22:39 - POST token: c0b9a75e37f5af66f76c14ea10761448f93e1c0e99ce0d0db21d7bf85a4cdd93
+2025-08-09 18:22:39 - Session token: c0b9a75e37f5af66f76c14ea10761448f93e1c0e99ce0d0db21d7bf85a4cdd93
+2025-08-09 18:22:39 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-09 18:22:39 - DB user: Array
+(
+    [user_id] => 4
+    [username] => mahir2001
+    [email] => mahirkhan123@gmail.com
+    [password_hash] => $2y$10$Ks.AAdqZlwbdfgbW8ZjOSO2sqMaNrmX1Tq8zf6h3Mg9jYrxXxmHtC
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-03 13:31:57
+    [updated_at] => 2025-08-10 00:19:10
+)
+2025-08-09 18:22:40 - Password verify: true
+2025-08-09 18:22:40 - Attempting authentication for user: mahir2001
+2025-08-09 18:22:40 - Authentication SUCCESS for user: mahir2001
+2025-08-09 18:22:40 - Redirecting to dashboard
+2025-08-18 04:28:36 - Entered login POST
+2025-08-18 04:28:36 - POST data: Array
+(
+    [csrf_token] => ab6474fce8167344a5c7c007fbaadf04dbac21c7eea6ee568873fff2096dbfec
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-18 04:28:36 - SESSION data: Array
+(
+    [csrf_token] => ab6474fce8167344a5c7c007fbaadf04dbac21c7eea6ee568873fff2096dbfec
+)
+
+2025-08-18 04:28:36 - POST token: ab6474fce8167344a5c7c007fbaadf04dbac21c7eea6ee568873fff2096dbfec
+2025-08-18 04:28:36 - Session token: ab6474fce8167344a5c7c007fbaadf04dbac21c7eea6ee568873fff2096dbfec
+2025-08-18 04:28:36 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-18 04:28:36 - DB user: 2025-08-18 04:28:36 - Attempting authentication for user: mahir2001
+2025-08-18 04:28:48 - Entered login POST
+2025-08-18 04:28:48 - POST data: Array
+(
+    [csrf_token] => ab6474fce8167344a5c7c007fbaadf04dbac21c7eea6ee568873fff2096dbfec
+    [username] => hiji1234
+    [password] => Hiji1234
+)
+
+2025-08-18 04:28:48 - SESSION data: Array
+(
+    [csrf_token] => ab6474fce8167344a5c7c007fbaadf04dbac21c7eea6ee568873fff2096dbfec
+)
+
+2025-08-18 04:28:48 - POST token: ab6474fce8167344a5c7c007fbaadf04dbac21c7eea6ee568873fff2096dbfec
+2025-08-18 04:28:48 - Session token: ab6474fce8167344a5c7c007fbaadf04dbac21c7eea6ee568873fff2096dbfec
+2025-08-18 04:28:48 - Authenticate: username=hiji1234, password=Hiji1234
+2025-08-18 04:28:48 - DB user: Array
+(
+    [user_id] => 2
+    [username] => hiji1234
+    [email] => dsdfghjdfghjk@gmial.com
+    [password_hash] => $2y$10$P9yUPsB.EwJlvpJhW2TuZe6UvQIhkqK9fFEdHtZYrAs9nahsWzrdm
+    [first_name] => dfghjkl;&#039;
+    [last_name] => fghjkl;
+    [created_at] => 2025-08-15 20:51:09
+    [updated_at] => 2025-08-15 20:51:20
+)
+2025-08-18 04:28:49 - Password verify: true
+2025-08-18 04:28:49 - Attempting authentication for user: hiji1234
+2025-08-18 04:28:49 - Authentication SUCCESS for user: hiji1234
+2025-08-18 04:28:49 - Redirecting to dashboard
+2025-08-18 10:16:12 - Entered login POST
+2025-08-18 10:16:12 - POST data: Array
+(
+    [csrf_token] => b4ea96315d442ed61164e7282f19fb3be7543eb3ee2cbd5f79457f6ef9aada50
+    [username] => hiji1234
+    [password] => Hiji1234
+)
+
+2025-08-18 10:16:12 - SESSION data: Array
+(
+    [csrf_token] => b4ea96315d442ed61164e7282f19fb3be7543eb3ee2cbd5f79457f6ef9aada50
+)
+
+2025-08-18 10:16:12 - POST token: b4ea96315d442ed61164e7282f19fb3be7543eb3ee2cbd5f79457f6ef9aada50
+2025-08-18 10:16:12 - Session token: b4ea96315d442ed61164e7282f19fb3be7543eb3ee2cbd5f79457f6ef9aada50
+2025-08-18 10:16:12 - Authenticate: username=hiji1234, password=Hiji1234
+2025-08-18 10:16:12 - DB user: Array
+(
+    [user_id] => 2
+    [username] => hiji1234
+    [email] => dsdfghjdfghjk@gmial.com
+    [password_hash] => $2y$10$P9yUPsB.EwJlvpJhW2TuZe6UvQIhkqK9fFEdHtZYrAs9nahsWzrdm
+    [first_name] => dfghjkl;&#039;
+    [last_name] => fghjkl;
+    [created_at] => 2025-08-15 20:51:09
+    [updated_at] => 2025-08-18 10:28:49
+)
+2025-08-18 10:16:12 - Password verify: true
+2025-08-18 10:16:12 - Attempting authentication for user: hiji1234
+2025-08-18 10:16:12 - Authentication SUCCESS for user: hiji1234
+2025-08-18 10:16:12 - Redirecting to dashboard
+2025-08-19 09:10:00 - Entered login POST
+2025-08-19 09:10:00 - POST data: Array
+(
+    [csrf_token] => 87c46c20d1af4b4be07e5002f45a8ce130a9e1b4da91f38213024e046f2f2600
+    [username] => hiji1234
+    [password] => Hiji1234
+)
+
+2025-08-19 09:10:00 - SESSION data: Array
+(
+    [csrf_token] => 87c46c20d1af4b4be07e5002f45a8ce130a9e1b4da91f38213024e046f2f2600
+)
+
+2025-08-19 09:10:00 - POST token: 87c46c20d1af4b4be07e5002f45a8ce130a9e1b4da91f38213024e046f2f2600
+2025-08-19 09:10:00 - Session token: 87c46c20d1af4b4be07e5002f45a8ce130a9e1b4da91f38213024e046f2f2600
+2025-08-19 09:10:00 - Authenticate: username=hiji1234, password=Hiji1234
+2025-08-19 09:10:00 - DB user: 2025-08-19 09:10:00 - Attempting authentication for user: hiji1234
+2025-08-19 09:10:13 - Entered login POST
+2025-08-19 09:10:13 - POST data: Array
+(
+    [csrf_token] => 87c46c20d1af4b4be07e5002f45a8ce130a9e1b4da91f38213024e046f2f2600
+    [username] => hiji1234
+    [password] => Hiji1234
+)
+
+2025-08-19 09:10:13 - SESSION data: Array
+(
+    [csrf_token] => 87c46c20d1af4b4be07e5002f45a8ce130a9e1b4da91f38213024e046f2f2600
+)
+
+2025-08-19 09:10:13 - POST token: 87c46c20d1af4b4be07e5002f45a8ce130a9e1b4da91f38213024e046f2f2600
+2025-08-19 09:10:13 - Session token: 87c46c20d1af4b4be07e5002f45a8ce130a9e1b4da91f38213024e046f2f2600
+2025-08-19 09:10:13 - Authenticate: username=hiji1234, password=Hiji1234
+2025-08-19 09:10:13 - DB user: 2025-08-19 09:10:13 - Attempting authentication for user: hiji1234
+2025-08-19 09:30:32 - Register POST: Array
+(
+    [csrf_token] => 87c46c20d1af4b4be07e5002f45a8ce130a9e1b4da91f38213024e046f2f2600
+    [first_name] => Mahir 
+    [last_name] => Khan
+    [username] => mahir2001
+    [email] => mahirkhan1222@gmial.com
+    [password] => Mahirkhan0
+    [confirm_password] => Mahirkhan0
+)
+2025-08-19 09:30:32 - Hashed password: $2y$10$YtVRjUyOExFKGCEu6hmO5e4LfIfvNXqTLnKWnPw8Nw43BjK5aXPQy
+2025-08-19 09:30:32 - Register result: Array
+(
+    [success] => 1
+    [message] => User account created successfully
+    [user_id] => 2
+)
+2025-08-19 09:30:37 - Entered login POST
+2025-08-19 09:30:37 - POST data: Array
+(
+    [csrf_token] => 87c46c20d1af4b4be07e5002f45a8ce130a9e1b4da91f38213024e046f2f2600
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-19 09:30:37 - SESSION data: Array
+(
+    [csrf_token] => 87c46c20d1af4b4be07e5002f45a8ce130a9e1b4da91f38213024e046f2f2600
+)
+
+2025-08-19 09:30:37 - POST token: 87c46c20d1af4b4be07e5002f45a8ce130a9e1b4da91f38213024e046f2f2600
+2025-08-19 09:30:37 - Session token: 87c46c20d1af4b4be07e5002f45a8ce130a9e1b4da91f38213024e046f2f2600
+2025-08-19 09:30:37 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-19 09:30:37 - DB user: Array
+(
+    [user_id] => 2
+    [username] => mahir2001
+    [email] => mahirkhan1222@gmial.com
+    [password_hash] => $2y$10$YtVRjUyOExFKGCEu6hmO5e4LfIfvNXqTLnKWnPw8Nw43BjK5aXPQy
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-19 15:30:32
+    [updated_at] => 2025-08-19 15:30:32
+)
+2025-08-19 09:30:37 - Password verify: true
+2025-08-19 09:30:37 - Attempting authentication for user: mahir2001
+2025-08-19 09:30:37 - Authentication SUCCESS for user: mahir2001
+2025-08-19 09:30:37 - Redirecting to dashboard
+2025-08-19 10:12:36 - Entered login POST
+2025-08-19 10:12:36 - POST data: Array
+(
+    [csrf_token] => ea555ee0a3bef0bc738bc65f84883b251d4537c73ae39dabc73a400bd4104d36
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-19 10:12:36 - SESSION data: Array
+(
+    [csrf_token] => ea555ee0a3bef0bc738bc65f84883b251d4537c73ae39dabc73a400bd4104d36
+)
+
+2025-08-19 10:12:36 - POST token: ea555ee0a3bef0bc738bc65f84883b251d4537c73ae39dabc73a400bd4104d36
+2025-08-19 10:12:36 - Session token: ea555ee0a3bef0bc738bc65f84883b251d4537c73ae39dabc73a400bd4104d36
+2025-08-19 10:12:36 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-19 10:12:36 - DB user: Array
+(
+    [user_id] => 2
+    [username] => mahir2001
+    [email] => mahirkhan1222@gmial.com
+    [password_hash] => $2y$10$YtVRjUyOExFKGCEu6hmO5e4LfIfvNXqTLnKWnPw8Nw43BjK5aXPQy
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-19 15:30:32
+    [updated_at] => 2025-08-19 15:30:37
+)
+2025-08-19 10:12:37 - Password verify: true
+2025-08-19 10:12:37 - Attempting authentication for user: mahir2001
+2025-08-19 10:12:37 - Authentication SUCCESS for user: mahir2001
+2025-08-19 10:12:37 - Redirecting to dashboard
+2025-08-20 14:17:23 - Entered login POST
+2025-08-20 14:17:23 - POST data: Array
+(
+    [csrf_token] => 14239a3ef3a835e8538114873821a3a3c30e6afc41ab701653ca5c996f28c29e
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-20 14:17:23 - SESSION data: Array
+(
+    [csrf_token] => 14239a3ef3a835e8538114873821a3a3c30e6afc41ab701653ca5c996f28c29e
+)
+
+2025-08-20 14:17:23 - POST token: 14239a3ef3a835e8538114873821a3a3c30e6afc41ab701653ca5c996f28c29e
+2025-08-20 14:17:23 - Session token: 14239a3ef3a835e8538114873821a3a3c30e6afc41ab701653ca5c996f28c29e
+2025-08-20 14:17:23 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-20 14:17:23 - DB user: Array
+(
+    [user_id] => 2
+    [username] => mahir2001
+    [email] => mahirkhan1222@gmial.com
+    [password_hash] => $2y$10$YtVRjUyOExFKGCEu6hmO5e4LfIfvNXqTLnKWnPw8Nw43BjK5aXPQy
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-19 15:30:32
+    [updated_at] => 2025-08-19 16:12:37
+)
+2025-08-20 14:17:23 - Password verify: true
+2025-08-20 14:17:23 - Attempting authentication for user: mahir2001
+2025-08-20 14:17:23 - Authentication SUCCESS for user: mahir2001
+2025-08-20 14:17:23 - Redirecting to dashboard
+2025-08-21 13:20:07 - Entered login POST
+2025-08-21 13:20:07 - POST data: Array
+(
+    [csrf_token] => 0c6c84c8b5032303cdd9b6b9f7b3d568b80bf1cfc20b48c7067a6824ecde5f53
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-21 13:20:07 - SESSION data: Array
+(
+    [csrf_token] => 0c6c84c8b5032303cdd9b6b9f7b3d568b80bf1cfc20b48c7067a6824ecde5f53
+)
+
+2025-08-21 13:20:07 - POST token: 0c6c84c8b5032303cdd9b6b9f7b3d568b80bf1cfc20b48c7067a6824ecde5f53
+2025-08-21 13:20:07 - Session token: 0c6c84c8b5032303cdd9b6b9f7b3d568b80bf1cfc20b48c7067a6824ecde5f53
+2025-08-21 13:20:07 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-21 13:20:07 - DB user: Array
+(
+    [user_id] => 2
+    [username] => mahir2001
+    [email] => mahirkhan1222@gmial.com
+    [password_hash] => $2y$10$YtVRjUyOExFKGCEu6hmO5e4LfIfvNXqTLnKWnPw8Nw43BjK5aXPQy
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-19 15:30:32
+    [updated_at] => 2025-08-20 20:17:23
+)
+2025-08-21 13:20:07 - Password verify: true
+2025-08-21 13:20:07 - Attempting authentication for user: mahir2001
+2025-08-21 13:20:07 - Authentication SUCCESS for user: mahir2001
+2025-08-21 13:20:07 - Redirecting to dashboard
+2025-08-22 04:15:41 - Entered login POST
+2025-08-22 04:15:41 - POST data: Array
+(
+    [csrf_token] => 65b423c0dd22b4049eec66e65f17ef1c778d8c9d14365b195d5b422e556dff95
+    [username] => mahir2001
+    [password] => Mahirkhan0
+)
+
+2025-08-22 04:15:41 - SESSION data: Array
+(
+    [csrf_token] => 65b423c0dd22b4049eec66e65f17ef1c778d8c9d14365b195d5b422e556dff95
+)
+
+2025-08-22 04:15:41 - POST token: 65b423c0dd22b4049eec66e65f17ef1c778d8c9d14365b195d5b422e556dff95
+2025-08-22 04:15:41 - Session token: 65b423c0dd22b4049eec66e65f17ef1c778d8c9d14365b195d5b422e556dff95
+2025-08-22 04:15:41 - Authenticate: username=mahir2001, password=Mahirkhan0
+2025-08-22 04:15:41 - DB user: Array
+(
+    [user_id] => 2
+    [username] => mahir2001
+    [email] => mahirkhan1222@gmial.com
+    [password_hash] => $2y$10$YtVRjUyOExFKGCEu6hmO5e4LfIfvNXqTLnKWnPw8Nw43BjK5aXPQy
+    [first_name] => Mahir
+    [last_name] => Khan
+    [created_at] => 2025-08-19 15:30:32
+    [updated_at] => 2025-08-21 19:20:07
+)
+2025-08-22 04:15:41 - Password verify: true
+2025-08-22 04:15:41 - Attempting authentication for user: mahir2001
+2025-08-22 04:15:41 - Authentication SUCCESS for user: mahir2001
+2025-08-22 04:15:41 - Redirecting to dashboard
